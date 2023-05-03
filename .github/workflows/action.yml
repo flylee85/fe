@@ -1,6 +1,8 @@
 name: Build With Vite
 
 on:
+  watch:
+    types: started
   push:
     branches: [master, v5.1]
   pull_request:
